@@ -1,0 +1,159 @@
+<!-- Why are you here -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte's Portfolio - Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Bootstrap CSS-->
+    
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="preload">
+        <section class="prload">
+            <div class="loader">
+                <div class="dot" style="--i:0;"></div>
+                <div class="dot" style="--i:1;"></div>
+                <div class="dot" style="--i:2;"></div>
+                <div class="dot" style="--i:3;"></div>
+                <div class="dot" style="--i:4;"></div>
+                <div class="dot" style="--i:5;"></div>
+                <div class="dot" style="--i:6;"></div>
+                <div class="dot" style="--i:7;"></div>
+                <div class="dot" style="--i:8;"></div>
+                <div class="dot" style="--i:9;"></div>
+            </div>
+            <h2>Loading...</h2>
+            <div class="loader">
+                <div class="dot" style="--i:0;"></div>
+                <div class="dot" style="--i:1;"></div>
+                <div class="dot" style="--i:2;"></div>
+                <div class="dot" style="--i:3;"></div>
+                <div class="dot" style="--i:4;"></div>
+                <div class="dot" style="--i:5;"></div>
+                <div class="dot" style="--i:6;"></div>
+                <div class="dot" style="--i:7;"></div>
+                <div class="dot" style="--i:8;"></div>
+                <div class="dot" style="--i:9;"></div>
+            </div>
+        </section>
+    </div>
+    <header>
+        <a href="#" class="logo">CHARLOTTE BURNS</a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-items">
+                <a href="#" class="active">Home</a>
+                <a href="">Bio</a>
+                <a href="">Skills</a>
+                <a href="">Projects</a>
+                <a href="CharlotteBurns2023.pdf">Resume</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="home">
+        <div class="video-front">
+            <video class="video-space" src="long video.mp4" autoplay muted loop></video>
+            <!--Game controller icons created by Freepik - Flaticon-->
+        </div>
+        <!-- <div class="black-line"></div> -->
+        <div class="content">
+            <img src="game-icon.png" alt="controller">
+            <h2>Charlotte Burns</h2>
+        </div>
+
+        <div class="abt-title">
+            <hr class="my-auto flex-grow-1">
+            <br>
+            <h2>About Me!</h2>
+            <br>
+            <hr class="my-auto flex-grow-1">
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img id="one" class="profile-pic" src="me.jpg" alt="profile picture">
+                    </div>
+                    <div class="about-col-2">
+                        <p id="one" align="justify">Hi! I'm Charlotte and I'm currently in my second year at
+                            Loughborough
+                            University, studying Computer Science and Artificial Intelligence. I'm currently on the
+                            look-out
+                            for an industrial placement year so don't be afraid to drop me a message if you're
+                            interested!
+                            Here you'll be able to check out some of the projects I've made and are currently in the
+                            works.
+
+                            <br>
+                            <br>
+                            I have experience in creating websites, and recently, games. I'm
+                            interested in expanding my knowledge across any field as I find any experience to be
+                            extremely
+                            valuable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-auto flex-grow-1">
+        <!--ABOUT FINISHED-->
+        <!--SKILLS-->
+        <div class="skills">
+            <h2>SKILLS</h2>
+            <div class=""></div>
+        </div>
+        <!--CONTACT-->
+        <div class="contact">
+            <section class="socmeds">
+                <ul>
+                    <li><a href="https://www.facebook.com/Charlotte105/"><img src="facebook.png" alt="facebook"></a></li>
+                    <li><a href="mailto:charlotte@burns.net"><img src="mail.webp" alt="instagram"></a></li>
+                    <li><a href="https://github.com/L0tt3B"><img src="GITHUB.jpg" alt="github"> </a></li>
+                    <li><a href="https://www.linkedin.com/in/lotteburns"><img src="linked-in.png" alt="linked-in"></a></li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+
+</script>
+
+<script type="text/javascript">
+    window.addEventListener('load', () => {
+        const preload = document.querySelector("#preload");
+        preload.classList.add('preload-finish');
+    }, 2000)
+</script>
