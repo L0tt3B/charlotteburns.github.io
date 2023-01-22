@@ -51,27 +51,28 @@
             </div>
         </section>
     </div>
-    <header>
-        <a href="#" class="logo">CHARLOTTE BURNS</a>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <nav class="nav-bar">
-            <div class="nav-items">
-                <a href="#" class="active">Home</a>
-                <a href="">Bio</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="https://github.com/L0tt3B/charlotteburns.github.io/CharlotteBurns2023.pdf">Resume</a>
-                <a href="">Contact</a>
-            </div>
-        </nav>
-
-    </header>
 
     <section class="home">
+        <header>
+            <a href="#" class="logo">CHARLOTTE BURNS</a>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <div class="nav-items">
+                    <a href="#" class="active">Home</a>
+                    <a href="#abt-title">Bio</a>
+                    <a href="#skills">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="http://charlotteburns.net/CharlotteBurns2023.pdf">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+    
+    
         <div class="video-front">
             <video class="video-space" autoplay muted loop playsinLine src="long video.mp4"></video>
             <!--Game controller icons created by Freepik - Flaticon-->
@@ -82,7 +83,7 @@
             <h2>Charlotte Burns</h2>
         </div>
 
-        <div class="abt-title">
+        <div id="abt-title" class="abt-title">
             <hr class="my-auto flex-grow-1">
             <br>
             <h2>About Me!</h2>
@@ -120,13 +121,96 @@
         </div>
         <hr class="my-auto flex-grow-1">
         <!--ABOUT FINISHED-->
+        
         <!--SKILLS-->
-        <div class="skills">
-            <h2>SKILLS</h2>
-            <div class=""></div>
+        <div id="skills">
+            <div class="skill-title">
+                <h2>SKILLS</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skill-con-title">
+                    <h2>Languages</h2>
+                </div>
+                <div class="skill-items">
+                    <div class="item">
+                        <img src="C++_Logo.png" alt="">
+                        <h4>C++</h4>
+                    </div>
+                    <div class="item">
+                        <img src="Sql-logo.png" alt="">
+                        <h4>SQL</h4>
+                    </div>
+                    <div class="item">
+                        <img src="python-logo.png" alt="">
+                        <h4>Python</h4>
+                    </div>
+                    <div class="item">
+                        <img src="JavaScript-logo.png" alt="">
+                        <h4>Javascript</h4>
+                    </div>
+                    <div class="item">
+                        <img src="html-logo.png" alt="">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="item">
+                        <img src="CSS_logo.png" alt="">
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="item">
+                        <img src="java-logo.png" alt="">
+                        <h4>Java</h4>
+                    </div>
+                </div>
+                <div class="skill-con-title">
+                    <h2>Frameworks</h2>
+                </div>
+                <div class="skill-items">
+                    <div class="item">
+                        <img src="Tailwind_CSS_Logo.png" alt="">
+                        <h4>TailwindCSS</h4>
+                    </div>
+                    <div class="item">
+                        <img src="Bootstrap_logo.png" alt="">
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div class="item">
+                        <img src="Node.js_logo.png" alt="">
+                        <h4>NodeJS</h4>
+                    </div>
+                    <div class="item">
+                        <img src="reactjs-logo.png" alt="">
+                        <h4>ReactJS</h4>
+                    </div>
+                </div>
+                <div class="skill-con-title">
+                    <h2>Tools</h2>
+                </div>
+                <div class="skill-items">
+                    <div class="item">
+                        <img src="Visual_Studio_Code-logo.png" alt="">
+                        <h4>VS Code</h4>
+                    </div>
+                    <div class="item">
+                        <img src="unity-logo.png" alt="">
+                        <h4>Unity</h4>
+                    </div>
+                    <div class="item">
+                        <img src="Unreal_Engine_Logo.png" alt="">
+                        <h4>Unreal <br> Engine</h4>
+                    </div>
+                    <div class="item">
+                        <img src="GITHUB.jpg" alt="">
+                        <h4>Github</h4>
+                    </div>
+                    <div class="item">
+                        <img src="Tiled-Logo.png" alt="">
+                        <h4>Tiled</h4>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--CONTACT-->
-        <div class="contact">
+        <div id="contact" class="contact">
             <section class="socmeds">
                 <ul>
                     <li><a href="https://www.facebook.com/Charlotte105/"><img src="facebook.png" alt="facebook"></a></li>
@@ -155,5 +239,5 @@
     window.addEventListener('load', () => {
         const preload = document.querySelector("#preload");
         preload.classList.add('preload-finish');
-    }, 2000)
+    })
 </script>
