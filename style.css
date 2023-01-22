@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /*list-style: none;
-    text-decoration: none;*/
     box-sizing: border-box;
 }
 
@@ -177,23 +175,7 @@ header .logo{
     margin-right: auto;
     width:5%;
 }
-/*
-@media only screen and (max-width: 1320px){
-    header{
-        padding: 0 50px;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-}
-@media only screen and (max-width: 1100px){
-    header{
-        padding: 0 30px;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    
-}
 
-BELOW USED TO BE 900px
-*/
 @media only screen and (max-width: 900px){
     header{
         padding: 0 30px;
@@ -248,6 +230,7 @@ BELOW USED TO BE 900px
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
+    
     .about-col-1{
         transform:translate(-9%, -20%);
         margin: auto;
@@ -441,3 +424,54 @@ footer::before{
     color: white;
     position: relative;
 }
+
+/* SKILLS START */
+.skill-title{
+    padding: 1rem 0;
+} 
+
+.skills-content{
+    padding: 2rem;
+    width: 80%;
+    border-style:dashed;
+    color: white;
+    margin: auto;
+}
+
+.skill-con-title{
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.skill-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 91, 91, 0.5);
+    width:6rem;
+    height: 6rem;
+    border-radius: 12px;
+}
+
+.item img{
+    width:50%;
+    max-width: fit-content;
+    height: 50%;
+    max-height: fit-content;
+}
+
+.item h4{
+    color: white;
+}
+
+
